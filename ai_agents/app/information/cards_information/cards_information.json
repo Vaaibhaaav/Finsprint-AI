@@ -1,0 +1,2610 @@
+[
+  {
+    "id": "hdfc_infinia_metal",
+    "name": "HDFC Infinia Metal",
+    "issuer": "HDFC Bank",
+    "network": "Visa",
+    "variant": "Metal",
+    "tier": "luxury",
+    "image_url": "/assets/cards/hdfc_infinia_metal.png",
+    "annual_fee": 12500,
+    "joining_fee": 12500,
+    "fee_waiver": {
+      "eligible": false,
+      "spend_threshold": null
+    },
+    "reward_currency": "reward_points",
+    "reward_rate_base": 3.33,
+    "reward_structure": {
+      "base": {
+        "points_per_spend": 5,
+        "per_amount": 150,
+        "point_value_inr": 1.0,
+        "net_rate_percent": 3.33
+      },
+      "reward_rate_per_category": {
+        "hotels_flights_via_smartbuy": {
+          "points_per_spend": 10,
+          "per_amount": 150,
+          "net_rate_percent": 6.67
+        },
+        "dining": {
+          "points_per_spend": 5,
+          "per_amount": 150,
+          "net_rate_percent": 3.33
+        },
+        "groceries": {
+          "points_per_spend": 5,
+          "per_amount": 150,
+          "net_rate_percent": 3.33
+        },
+        "fuel": {
+          "points_per_spend": 0,
+          "per_amount": 0,
+          "net_rate_percent": 0,
+          "note": "Excluded from rewards"
+        },
+        "emi_transactions": {
+          "net_rate_percent": 0,
+          "note": "Excluded"
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": false
+    },
+    "milestone_rewards": [
+      {
+        "spend_threshold_inr": 800000,
+        "reward": "Annual fee waiver for next year + Club Marriott membership renewal"
+      }
+    ],
+    "welcome_benefits": {
+      "bonus_points": 12500,
+      "description": "12,500 reward points on first spend within 90 days"
+    },
+    "lounge_access": {
+      "domestic": "Unlimited",
+      "international": "Unlimited via Priority Pass",
+      "guest_visits": "Unlimited"
+    },
+    "forex_markup": 2.0,
+    "fuel_surcharge_waiver": false,
+    "key_benefits": [
+      "Club Marriott membership (25% off F&B, 20% off rooms)",
+      "Unlimited Priority Pass for self and add-on",
+      "Golf access at 100+ courses",
+      "Concierge services 24/7",
+      "Air accident cover ₹3 Cr",
+      "SmartBuy 10X reward portal access"
+    ],
+    "credit_limit_range": {
+      "min": 800000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 1800000,
+      "invitation_only": true
+    },
+    "contactless": true,
+    "is_metal": true
+  },
+  {
+    "id": "hdfc_regalia_gold",
+    "name": "HDFC Regalia Gold",
+    "issuer": "HDFC Bank",
+    "network": "Visa",
+    "variant": "Gold",
+    "tier": "premium",
+    "image_url": "/assets/cards/hdfc_regalia_gold.png",
+    "annual_fee": 2500,
+    "joining_fee": 2500,
+    "fee_waiver": {
+      "eligible": true,
+      "spend_threshold": 400000
+    },
+    "reward_currency": "reward_points",
+    "reward_rate_base": 2.0,
+    "reward_structure": {
+      "base": {
+        "points_per_spend": 4,
+        "per_amount": 150,
+        "point_value_inr": 0.75,
+        "net_rate_percent": 2.0
+      },
+      "reward_rate_per_category": {
+        "hotels_flights_via_smartbuy": {
+          "points_per_spend": 20,
+          "per_amount": 150,
+          "net_rate_percent": 10.0
+        },
+        "dining_zomato_swiggy": {
+          "points_per_spend": 20,
+          "per_amount": 150,
+          "net_rate_percent": 10.0
+        },
+        "international_spends": {
+          "points_per_spend": 4,
+          "per_amount": 150,
+          "net_rate_percent": 2.0
+        },
+        "fuel": {
+          "net_rate_percent": 0,
+          "note": "Excluded"
+        },
+        "wallet_loads": {
+          "net_rate_percent": 0,
+          "note": "Excluded"
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": true,
+      "categories": {
+        "dining_zomato_swiggy": {
+          "max_points": 1000,
+          "per": "month"
+        },
+        "hotels_flights_via_smartbuy": {
+          "max_points": 5000,
+          "per": "month"
+        }
+      }
+    },
+    "milestone_rewards": [
+      {
+        "spend_threshold_inr": 150000,
+        "reward": "1500 bonus reward points"
+      },
+      {
+        "spend_threshold_inr": 500000,
+        "reward": "Nykaa / Pantaloons voucher ₹2000"
+      },
+      {
+        "spend_threshold_inr": 750000,
+        "reward": "Annual fee waived next year"
+      }
+    ],
+    "welcome_benefits": {
+      "bonus_points": 2500,
+      "description": "2,500 reward points on joining fee payment"
+    },
+    "lounge_access": {
+      "domestic": "12 visits/year via Priority Pass",
+      "international": "6 visits/year via Priority Pass",
+      "guest_visits": "2 guest visits domestic/year"
+    },
+    "forex_markup": 2.0,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "Priority Pass membership",
+      "Golf privilege program",
+      "Dineout Passport membership",
+      "Emergency overseas travel cover"
+    ],
+    "credit_limit_range": {
+      "min": 100000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 1200000,
+      "invitation_only": false
+    },
+    "contactless": true,
+    "is_metal": false
+  },
+  {
+    "id": "hdfc_tata_neu_infinity_rupay",
+    "name": "HDFC Tata Neu Infinity (RuPay)",
+    "issuer": "HDFC Bank",
+    "network": "RuPay",
+    "variant": "Standard",
+    "tier": "entry",
+    "image_url": "/assets/cards/hdfc_tata_neu_infinity_rupay.png",
+    "annual_fee": 1499,
+    "joining_fee": 1499,
+    "fee_waiver": {
+      "eligible": true,
+      "spend_threshold": 300000
+    },
+    "reward_currency": "NeuCoins",
+    "reward_rate_base": 1.5,
+    "reward_structure": {
+      "base": {
+        "points_per_spend": 1.5,
+        "per_amount": 100,
+        "point_value_inr": 1.0,
+        "net_rate_percent": 1.5,
+        "note": "1.5 NeuCoins per ₹100 on non-Tata spends"
+      },
+      "reward_rate_per_category": {
+        "tata_neu_app_tata_brands": {
+          "neucoins_per_100": 5,
+          "net_rate_percent": 5.0
+        },
+        "bigbasket": {
+          "neucoins_per_100": 5,
+          "net_rate_percent": 5.0
+        },
+        "croma": {
+          "neucoins_per_100": 5,
+          "net_rate_percent": 5.0
+        },
+        "air_asia": {
+          "neucoins_per_100": 5,
+          "net_rate_percent": 5.0
+        },
+        "emi_transactions": {
+          "net_rate_percent": 0,
+          "note": "Excluded"
+        },
+        "fuel": {
+          "net_rate_percent": 0,
+          "note": "Excluded"
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": true,
+      "categories": {
+        "tata_brands_5_percent": {
+          "max_neucoins": 500,
+          "per": "month"
+        }
+      }
+    },
+    "milestone_rewards": [],
+    "welcome_benefits": {
+      "bonus_points": 499,
+      "description": "499 NeuCoins on joining fee payment"
+    },
+    "lounge_access": {
+      "domestic": "4 visits/year",
+      "international": "None",
+      "guest_visits": "None"
+    },
+    "forex_markup": 3.5,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "NeuCoins redeemable at Tata ecosystem brands",
+      "UPI payments via RuPay network",
+      "Fuel surcharge waiver 1% up to ₹250/month"
+    ],
+    "credit_limit_range": {
+      "min": 50000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 360000,
+      "invitation_only": false
+    },
+    "contactless": true,
+    "is_metal": false
+  },
+  {
+    "id": "hdfc_millennia",
+    "name": "HDFC Millennia",
+    "issuer": "HDFC Bank",
+    "network": "Visa",
+    "variant": "Standard",
+    "tier": "entry",
+    "image_url": "/assets/cards/hdfc_millennia.png",
+    "annual_fee": 1000,
+    "joining_fee": 1000,
+    "fee_waiver": {
+      "eligible": true,
+      "spend_threshold": 100000
+    },
+    "reward_currency": "cashback_points",
+    "reward_rate_base": 1.0,
+    "reward_structure": {
+      "base": {
+        "points_per_spend": 1,
+        "per_amount": 100,
+        "point_value_inr": 1.0,
+        "net_rate_percent": 1.0
+      },
+      "reward_rate_per_category": {
+        "amazon_flipkart_myntra_sony_etc_partner": {
+          "net_rate_percent": 5.0,
+          "note": "5% cashback via partner portals"
+        },
+        "swiggy_zomato_bigbasket_cultfit": {
+          "net_rate_percent": 5.0
+        },
+        "wallet_loads": {
+          "net_rate_percent": 0
+        },
+        "fuel": {
+          "net_rate_percent": 0
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": true,
+      "categories": {
+        "partner_5pct_cashback": {
+          "max_cashback_inr": 1000,
+          "per": "month"
+        }
+      }
+    },
+    "milestone_rewards": [
+      {
+        "spend_threshold_inr": 100000,
+        "reward": "1000 cashback points"
+      }
+    ],
+    "welcome_benefits": {
+      "bonus_points": 1000,
+      "description": "1000 cashback points on joining"
+    },
+    "lounge_access": {
+      "domestic": "2 visits/quarter via Dreamfolks",
+      "international": "None",
+      "guest_visits": "None"
+    },
+    "forex_markup": 3.5,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "5% cashback on partner e-commerce",
+      "Dreamfolks lounge access",
+      "Fuel surcharge waiver 1%"
+    ],
+    "credit_limit_range": {
+      "min": 30000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 350000,
+      "invitation_only": false
+    },
+    "contactless": true,
+    "is_metal": false
+  },
+  {
+    "id": "sbi_cashback_card",
+    "name": "SBI Cashback Card",
+    "issuer": "SBI Card",
+    "network": "Visa",
+    "variant": "Standard",
+    "tier": "entry",
+    "image_url": "/assets/cards/sbi_cashback_card.png",
+    "annual_fee": 999,
+    "joining_fee": 999,
+    "fee_waiver": {
+      "eligible": true,
+      "spend_threshold": 200000
+    },
+    "reward_currency": "cashback_inr",
+    "reward_rate_base": 1.0,
+    "reward_structure": {
+      "base": {
+        "net_rate_percent": 1.0,
+        "note": "1% cashback on offline spends"
+      },
+      "reward_rate_per_category": {
+        "online_all_merchants": {
+          "net_rate_percent": 5.0,
+          "note": "5% cashback on all online spends"
+        },
+        "utility_bill_payments": {
+          "net_rate_percent": 0,
+          "note": "Excluded"
+        },
+        "fuel": {
+          "net_rate_percent": 0,
+          "note": "Excluded"
+        },
+        "emi_transactions": {
+          "net_rate_percent": 0,
+          "note": "Excluded"
+        },
+        "rent": {
+          "net_rate_percent": 0,
+          "note": "Excluded"
+        },
+        "wallet_loads": {
+          "net_rate_percent": 0,
+          "note": "Excluded"
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": true,
+      "categories": {
+        "online_5pct_cashback": {
+          "max_cashback_inr": 5000,
+          "per": "month"
+        },
+        "offline_1pct_cashback": {
+          "max_cashback_inr": 5000,
+          "per": "month"
+        }
+      }
+    },
+    "milestone_rewards": [],
+    "welcome_benefits": {
+      "bonus_points": null,
+      "description": "₹999 joining fee offset by equivalent cashback on first spend"
+    },
+    "lounge_access": {
+      "domestic": "None",
+      "international": "None",
+      "guest_visits": "None"
+    },
+    "forex_markup": 3.5,
+    "fuel_surcharge_waiver": false,
+    "key_benefits": [
+      "5% cashback on all online spends",
+      "Cashback auto-credited every month",
+      "No merchant restriction for online cashback"
+    ],
+    "credit_limit_range": {
+      "min": 20000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 240000,
+      "invitation_only": false
+    },
+    "contactless": true,
+    "is_metal": false
+  },
+  {
+    "id": "sbi_card_elite",
+    "name": "SBI Card Elite",
+    "issuer": "SBI Card",
+    "network": "Visa",
+    "variant": "Elite",
+    "tier": "premium",
+    "image_url": "/assets/cards/sbi_card_elite.png",
+    "annual_fee": 4999,
+    "joining_fee": 4999,
+    "fee_waiver": {
+      "eligible": true,
+      "spend_threshold": 1000000
+    },
+    "reward_currency": "reward_points",
+    "reward_rate_base": 2.0,
+    "reward_structure": {
+      "base": {
+        "points_per_spend": 2,
+        "per_amount": 100,
+        "point_value_inr": 1.0,
+        "net_rate_percent": 2.0
+      },
+      "reward_rate_per_category": {
+        "dining": {
+          "points_per_spend": 5,
+          "per_amount": 100,
+          "net_rate_percent": 5.0
+        },
+        "groceries": {
+          "points_per_spend": 5,
+          "per_amount": 100,
+          "net_rate_percent": 5.0
+        },
+        "departmental_stores": {
+          "points_per_spend": 5,
+          "per_amount": 100,
+          "net_rate_percent": 5.0
+        },
+        "movies": {
+          "points_per_spend": 5,
+          "per_amount": 100,
+          "net_rate_percent": 5.0
+        },
+        "international_spends": {
+          "points_per_spend": 2,
+          "per_amount": 100,
+          "net_rate_percent": 2.0
+        },
+        "fuel": {
+          "net_rate_percent": 0,
+          "note": "Excluded"
+        },
+        "utilities": {
+          "net_rate_percent": 0.5,
+          "note": "0.5% only"
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": false
+    },
+    "milestone_rewards": [
+      {
+        "spend_threshold_inr": 300000,
+        "reward": "Pizza Hut e-voucher ₹1000"
+      },
+      {
+        "spend_threshold_inr": 600000,
+        "reward": "Yatra e-voucher ₹3000"
+      },
+      {
+        "spend_threshold_inr": 1000000,
+        "reward": "Annual fee waiver"
+      }
+    ],
+    "welcome_benefits": {
+      "bonus_points": null,
+      "description": "e-Gift voucher worth ₹5000 on joining"
+    },
+    "lounge_access": {
+      "domestic": "8 visits/year via Dreamfolks",
+      "international": "6 visits/year via Priority Pass",
+      "guest_visits": "2 guest visits"
+    },
+    "forex_markup": 1.99,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "Priority Pass membership",
+      "Trident Privilege Red Tier membership",
+      "Air accident insurance ₹50 Lakh",
+      "Low forex markup 1.99%"
+    ],
+    "credit_limit_range": {
+      "min": 150000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 1200000,
+      "invitation_only": false
+    },
+    "contactless": true,
+    "is_metal": false
+  },
+  {
+    "id": "sbi_card_prime",
+    "name": "SBI Card Prime",
+    "issuer": "SBI Card",
+    "network": "Visa",
+    "variant": "Prime",
+    "tier": "premium",
+    "image_url": "/assets/cards/sbi_card_prime.png",
+    "annual_fee": 2999,
+    "joining_fee": 2999,
+    "fee_waiver": {
+      "eligible": true,
+      "spend_threshold": 300000
+    },
+    "reward_currency": "reward_points",
+    "reward_rate_base": 2.0,
+    "reward_structure": {
+      "base": {
+        "points_per_spend": 2,
+        "per_amount": 100,
+        "point_value_inr": 1.0,
+        "net_rate_percent": 2.0
+      },
+      "reward_rate_per_category": {
+        "dining": {
+          "points_per_spend": 10,
+          "per_amount": 100,
+          "net_rate_percent": 10.0
+        },
+        "groceries": {
+          "points_per_spend": 10,
+          "per_amount": 100,
+          "net_rate_percent": 10.0
+        },
+        "movies": {
+          "points_per_spend": 10,
+          "per_amount": 100,
+          "net_rate_percent": 10.0
+        },
+        "fuel": {
+          "net_rate_percent": 0,
+          "note": "Excluded"
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": true,
+      "categories": {
+        "accelerated_10x": {
+          "max_points": 7500,
+          "per": "month"
+        }
+      }
+    },
+    "milestone_rewards": [
+      {
+        "spend_threshold_inr": 50000,
+        "reward": "Yatra voucher ₹1500"
+      },
+      {
+        "spend_threshold_inr": 300000,
+        "reward": "Annual fee waiver"
+      }
+    ],
+    "welcome_benefits": {
+      "bonus_points": null,
+      "description": "e-Gift voucher worth ₹3000"
+    },
+    "lounge_access": {
+      "domestic": "4 visits/year",
+      "international": "None",
+      "guest_visits": "None"
+    },
+    "forex_markup": 3.5,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "10X on dining, grocery, movies",
+      "Club Vistara Silver membership",
+      "Trident Privilege membership"
+    ],
+    "credit_limit_range": {
+      "min": 75000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 600000,
+      "invitation_only": false
+    },
+    "contactless": true,
+    "is_metal": false
+  },
+  {
+    "id": "axis_atlas",
+    "name": "Axis Bank Atlas",
+    "issuer": "Axis Bank",
+    "network": "Visa",
+    "variant": "Metal",
+    "tier": "premium",
+    "image_url": "/assets/cards/axis_atlas.png",
+    "annual_fee": 5000,
+    "joining_fee": 5000,
+    "fee_waiver": {
+      "eligible": false,
+      "spend_threshold": null
+    },
+    "reward_currency": "EDGE_Miles",
+    "reward_rate_base": 2.0,
+    "reward_structure": {
+      "base": {
+        "miles_per_spend": 2,
+        "per_amount": 100,
+        "note": "2 EDGE Miles per ₹100 (base non-travel)",
+        "net_rate_percent": 2.0
+      },
+      "reward_rate_per_category": {
+        "travel_merchants": {
+          "miles_per_100": 5,
+          "net_rate_percent": 5.0,
+          "note": "Airlines, hotels booked via travel merchants"
+        },
+        "axis_travel_edge_portal": {
+          "miles_per_100": 5,
+          "net_rate_percent": 5.0
+        },
+        "fuel": {
+          "net_rate_percent": 0,
+          "note": "Excluded"
+        },
+        "utilities": {
+          "net_rate_percent": 0,
+          "note": "Excluded"
+        },
+        "wallet_loads": {
+          "net_rate_percent": 0
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": false
+    },
+    "milestone_rewards": [
+      {
+        "spend_threshold_inr": 350000,
+        "tier": "Silver",
+        "reward": "5000 EDGE Miles bonus"
+      },
+      {
+        "spend_threshold_inr": 750000,
+        "tier": "Gold",
+        "reward": "10000 EDGE Miles bonus"
+      },
+      {
+        "spend_threshold_inr": 1500000,
+        "tier": "Platinum",
+        "reward": "15000 EDGE Miles bonus"
+      }
+    ],
+    "welcome_benefits": {
+      "bonus_miles": 5000,
+      "description": "5000 EDGE Miles on first transaction within 37 days"
+    },
+    "lounge_access": {
+      "domestic": "8 complimentary visits/year",
+      "international": "4 visits/year via Priority Pass",
+      "guest_visits": "Charged separately"
+    },
+    "forex_markup": 3.5,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "EDGE Miles transferable to 15+ airline/hotel partners",
+      "Priority Pass membership",
+      "Travel insurance up to ₹3.5 Cr",
+      "Golf access"
+    ],
+    "credit_limit_range": {
+      "min": 100000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 900000,
+      "invitation_only": false
+    },
+    "contactless": true,
+    "is_metal": true
+  },
+  {
+    "id": "axis_ace",
+    "name": "Axis Bank Ace",
+    "issuer": "Axis Bank",
+    "network": "Visa",
+    "variant": "Standard",
+    "tier": "entry",
+    "image_url": "/assets/cards/axis_ace.png",
+    "annual_fee": 499,
+    "joining_fee": 499,
+    "fee_waiver": {
+      "eligible": true,
+      "spend_threshold": 200000
+    },
+    "reward_currency": "cashback_inr",
+    "reward_rate_base": 2.0,
+    "reward_structure": {
+      "base": {
+        "net_rate_percent": 2.0,
+        "note": "2% cashback on all other spends"
+      },
+      "reward_rate_per_category": {
+        "bill_payments_via_google_pay": {
+          "net_rate_percent": 5.0
+        },
+        "swiggy": {
+          "net_rate_percent": 5.0
+        },
+        "ola": {
+          "net_rate_percent": 5.0
+        },
+        "uber": {
+          "net_rate_percent": 5.0
+        },
+        "bigbasket": {
+          "net_rate_percent": 4.0
+        },
+        "fuel": {
+          "net_rate_percent": 0,
+          "note": "Excluded"
+        },
+        "emi_transactions": {
+          "net_rate_percent": 0
+        },
+        "rent": {
+          "net_rate_percent": 0
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": true,
+      "categories": {
+        "overall_cashback": {
+          "max_cashback_inr": 500,
+          "per": "month",
+          "note": "Total cashback capped at ₹500/month"
+        }
+      }
+    },
+    "milestone_rewards": [],
+    "welcome_benefits": {
+      "bonus_points": null,
+      "description": "Complimentary Lenskart Gold membership worth ₹600"
+    },
+    "lounge_access": {
+      "domestic": "4 visits/year via Dreamfolks",
+      "international": "None",
+      "guest_visits": "None"
+    },
+    "forex_markup": 3.5,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "5% cashback on Google Pay bill payments",
+      "5% cashback on Swiggy, Ola, Uber",
+      "2% unlimited on all other spends",
+      "EDGE REWARDS app integration"
+    ],
+    "credit_limit_range": {
+      "min": 25000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 300000,
+      "invitation_only": false
+    },
+    "contactless": true,
+    "is_metal": false
+  },
+  {
+    "id": "axis_flipkart",
+    "name": "Axis Bank Flipkart Credit Card",
+    "issuer": "Axis Bank",
+    "network": "Visa",
+    "variant": "Standard",
+    "tier": "entry",
+    "image_url": "/assets/cards/axis_flipkart.png",
+    "annual_fee": 500,
+    "joining_fee": 500,
+    "fee_waiver": {
+      "eligible": true,
+      "spend_threshold": 200000
+    },
+    "reward_currency": "cashback_inr",
+    "reward_rate_base": 1.5,
+    "reward_structure": {
+      "base": {
+        "net_rate_percent": 1.5,
+        "note": "1.5% unlimited cashback on all other spends"
+      },
+      "reward_rate_per_category": {
+        "flipkart_supermart": {
+          "net_rate_percent": 5.0
+        },
+        "flipkart_all": {
+          "net_rate_percent": 5.0
+        },
+        "myntra": {
+          "net_rate_percent": 5.0
+        },
+        "cleartrip": {
+          "net_rate_percent": 5.0
+        },
+        "preferred_merchants_swiggy_uber_etc": {
+          "net_rate_percent": 4.0
+        },
+        "fuel": {
+          "net_rate_percent": 0
+        },
+        "emi": {
+          "net_rate_percent": 0
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": false
+    },
+    "milestone_rewards": [],
+    "welcome_benefits": {
+      "bonus_points": null,
+      "description": "Flipkart voucher worth ₹500 on first transaction"
+    },
+    "lounge_access": {
+      "domestic": "4 visits/year",
+      "international": "None",
+      "guest_visits": "None"
+    },
+    "forex_markup": 3.5,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "5% cashback on Flipkart, Myntra, Cleartrip",
+      "4% on preferred partner merchants",
+      "No reward cap"
+    ],
+    "credit_limit_range": {
+      "min": 20000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 300000,
+      "invitation_only": false
+    },
+    "contactless": true,
+    "is_metal": false
+  },
+  {
+    "id": "axis_reserve",
+    "name": "Axis Bank Reserve",
+    "issuer": "Axis Bank",
+    "network": "Visa",
+    "variant": "Infinite",
+    "tier": "luxury",
+    "image_url": "/assets/cards/axis_reserve.png",
+    "annual_fee": 50000,
+    "joining_fee": 50000,
+    "fee_waiver": {
+      "eligible": false
+    },
+    "reward_currency": "EDGE_Miles",
+    "reward_rate_base": 3.33,
+    "reward_structure": {
+      "base": {
+        "miles_per_spend": 5,
+        "per_amount": 100,
+        "note": "5 EDGE Miles per ₹100",
+        "net_rate_percent": 5.0
+      },
+      "reward_rate_per_category": {
+        "travel_merchants": {
+          "miles_per_100": 10,
+          "net_rate_percent": 10.0
+        },
+        "dining": {
+          "miles_per_100": 5,
+          "net_rate_percent": 5.0
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": false
+    },
+    "milestone_rewards": [],
+    "welcome_benefits": {
+      "description": "40000 EDGE Miles + ₹50000 worth travel benefits on joining"
+    },
+    "lounge_access": {
+      "domestic": "Unlimited",
+      "international": "Unlimited via Priority Pass",
+      "guest_visits": "Unlimited"
+    },
+    "forex_markup": 1.5,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "Unlimited international lounge access",
+      "Personal relationship manager",
+      "Taj Epicure membership",
+      "Golf worldwide access"
+    ],
+    "credit_limit_range": {
+      "min": 1000000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 5000000,
+      "invitation_only": true
+    },
+    "contactless": true,
+    "is_metal": true
+  },
+  {
+    "id": "icici_amazon_pay",
+    "name": "ICICI Amazon Pay Credit Card",
+    "issuer": "ICICI Bank",
+    "network": "Visa",
+    "variant": "Standard",
+    "tier": "entry",
+    "image_url": "/assets/cards/icici_amazon_pay.png",
+    "annual_fee": 0,
+    "joining_fee": 0,
+    "fee_waiver": {
+      "eligible": true,
+      "spend_threshold": null,
+      "note": "Lifetime free"
+    },
+    "reward_currency": "amazon_pay_balance",
+    "reward_rate_base": 1.0,
+    "reward_structure": {
+      "base": {
+        "net_rate_percent": 1.0,
+        "note": "1% on all other spends"
+      },
+      "reward_rate_per_category": {
+        "amazon_prime_members": {
+          "net_rate_percent": 5.0,
+          "note": "5% on Amazon.in for Prime members"
+        },
+        "amazon_non_prime": {
+          "net_rate_percent": 3.0
+        },
+        "amazon_pay_partner_merchants": {
+          "net_rate_percent": 2.0
+        },
+        "fuel": {
+          "net_rate_percent": 0
+        },
+        "emi": {
+          "net_rate_percent": 0
+        },
+        "cash_advance": {
+          "net_rate_percent": 0
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": false
+    },
+    "milestone_rewards": [],
+    "welcome_benefits": {
+      "description": "₹500 Amazon Pay balance on card activation"
+    },
+    "lounge_access": {
+      "domestic": "None",
+      "international": "None"
+    },
+    "forex_markup": 3.5,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "Lifetime free card",
+      "5% on Amazon for Prime members",
+      "Amazon Pay cashback auto-credited"
+    ],
+    "credit_limit_range": {
+      "min": 20000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 240000,
+      "invitation_only": false
+    },
+    "contactless": true,
+    "is_metal": false
+  },
+  {
+    "id": "icici_coral",
+    "name": "ICICI Bank Coral Credit Card",
+    "issuer": "ICICI Bank",
+    "network": "Visa",
+    "variant": "Standard",
+    "tier": "entry",
+    "image_url": "/assets/cards/icici_coral.png",
+    "annual_fee": 500,
+    "joining_fee": 500,
+    "fee_waiver": {
+      "eligible": true,
+      "spend_threshold": 150000
+    },
+    "reward_currency": "reward_points",
+    "reward_rate_base": 2.0,
+    "reward_structure": {
+      "base": {
+        "points_per_spend": 2,
+        "per_amount": 100,
+        "point_value_inr": 0.25,
+        "net_rate_percent": 0.5
+      },
+      "reward_rate_per_category": {
+        "dining": {
+          "points_per_spend": 2,
+          "per_amount": 100,
+          "net_rate_percent": 0.5
+        },
+        "entertainment": {
+          "points_per_spend": 2,
+          "per_amount": 100,
+          "net_rate_percent": 0.5
+        },
+        "utilities_and_fuel": {
+          "points_per_spend": 1,
+          "per_amount": 100,
+          "net_rate_percent": 0.25
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": false
+    },
+    "milestone_rewards": [],
+    "welcome_benefits": {
+      "description": "₹500 gift voucher on joining"
+    },
+    "lounge_access": {
+      "domestic": "2 complimentary visits/quarter via Dreamfolks",
+      "international": "None"
+    },
+    "forex_markup": 3.5,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "Buy 1 Get 1 on BookMyShow (up to 2 per month)",
+      "25% dining discount at partner restaurants",
+      "Dreamfolks domestic lounge access"
+    ],
+    "credit_limit_range": {
+      "min": 20000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 360000,
+      "invitation_only": false
+    },
+    "contactless": true,
+    "is_metal": false
+  },
+  {
+    "id": "icici_sapphiro",
+    "name": "ICICI Bank Sapphiro Credit Card",
+    "issuer": "ICICI Bank",
+    "network": "Visa",
+    "variant": "Infinite",
+    "tier": "premium",
+    "image_url": "/assets/cards/icici_sapphiro.png",
+    "annual_fee": 6500,
+    "joining_fee": 6500,
+    "fee_waiver": {
+      "eligible": false
+    },
+    "reward_currency": "reward_points",
+    "reward_rate_base": 2.0,
+    "reward_structure": {
+      "base": {
+        "points_per_spend": 4,
+        "per_amount": 100,
+        "point_value_inr": 0.25,
+        "net_rate_percent": 1.0
+      },
+      "reward_rate_per_category": {
+        "international_spends": {
+          "points_per_100": 6,
+          "net_rate_percent": 1.5
+        },
+        "dining": {
+          "points_per_100": 4,
+          "net_rate_percent": 1.0
+        },
+        "fuel": {
+          "net_rate_percent": 0
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": false
+    },
+    "milestone_rewards": [],
+    "welcome_benefits": {
+      "description": "eGift vouchers worth ₹9000 on joining"
+    },
+    "lounge_access": {
+      "domestic": "4 visits/quarter via Priority Pass",
+      "international": "2 visits/quarter via Priority Pass"
+    },
+    "forex_markup": 3.5,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "Priority Pass membership",
+      "Exclusive concierge services",
+      "Golf program",
+      "Buy 1 Get 1 BookMyShow"
+    ],
+    "credit_limit_range": {
+      "min": 300000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 2400000,
+      "invitation_only": false
+    },
+    "contactless": true,
+    "is_metal": false
+  },
+  {
+    "id": "amex_gold_card",
+    "name": "American Express Gold Card",
+    "issuer": "American Express",
+    "network": "Amex",
+    "variant": "Gold",
+    "tier": "premium",
+    "image_url": "/assets/cards/amex_gold_card.png",
+    "annual_fee": 4500,
+    "joining_fee": 1000,
+    "fee_waiver": {
+      "eligible": false
+    },
+    "reward_currency": "membership_rewards_points",
+    "reward_rate_base": 1.0,
+    "reward_structure": {
+      "base": {
+        "points_per_spend": 1,
+        "per_amount": 50,
+        "point_value_inr": 0.5,
+        "net_rate_percent": 1.0,
+        "note": "1 MR per ₹50 = 1% base"
+      },
+      "reward_rate_per_category": {
+        "amex_travel_online": {
+          "points_per_50": 5,
+          "net_rate_percent": 5.0
+        },
+        "dining_gold_dining_programme": {
+          "note": "20% off at select 1700+ restaurants"
+        },
+        "fuel": {
+          "net_rate_percent": 0,
+          "note": "Excluded"
+        },
+        "utilities": {
+          "net_rate_percent": 0
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": false
+    },
+    "milestone_rewards": [
+      {
+        "spend_threshold_inr": 190000,
+        "reward": "5000 bonus Membership Rewards points"
+      },
+      {
+        "spend_threshold_inr": 400000,
+        "reward": "Additional 10000 Membership Rewards points"
+      }
+    ],
+    "welcome_benefits": {
+      "description": "4000 MR points on card activation + joining fee ₹1000 credited back"
+    },
+    "lounge_access": {
+      "domestic": "8 visits/year via Dreamfolks",
+      "international": "None"
+    },
+    "forex_markup": 3.5,
+    "fuel_surcharge_waiver": false,
+    "key_benefits": [
+      "Gold Dining Programme - 20% off at 1700+ restaurants",
+      "5000 bonus MR at ₹1.9L spend",
+      "10000 bonus MR at ₹4L spend",
+      "Marriott Bonvoy transfer partner",
+      "Amex Offers ecosystem"
+    ],
+    "credit_limit_range": {
+      "min": 50000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 600000,
+      "invitation_only": false
+    },
+    "contactless": false,
+    "is_metal": false
+  },
+  {
+    "id": "amex_platinum_travel",
+    "name": "American Express Platinum Travel Credit Card",
+    "issuer": "American Express",
+    "network": "Amex",
+    "variant": "Platinum",
+    "tier": "premium",
+    "image_url": "/assets/cards/amex_platinum_travel.png",
+    "annual_fee": 3500,
+    "joining_fee": 3500,
+    "fee_waiver": {
+      "eligible": false
+    },
+    "reward_currency": "membership_rewards_points",
+    "reward_rate_base": 1.0,
+    "reward_structure": {
+      "base": {
+        "points_per_spend": 1,
+        "per_amount": 50,
+        "point_value_inr": 0.5,
+        "net_rate_percent": 1.0
+      },
+      "reward_rate_per_category": {
+        "amex_travel_online_portal": {
+          "points_per_50": 5,
+          "net_rate_percent": 5.0
+        },
+        "indigo_flights": {
+          "points_per_50": 5,
+          "net_rate_percent": 5.0
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": false
+    },
+    "milestone_rewards": [
+      {
+        "spend_threshold_inr": 190000,
+        "reward": "Taj voucher worth ₹7700 + Indigo voucher ₹4000",
+        "note": "Triggered at annual ₹1.9 Lakh spend"
+      },
+      {
+        "spend_threshold_inr": 400000,
+        "reward": "Indigo voucher ₹7700 + upgrade to Platinum Tier status",
+        "note": "Triggered at annual ₹4 Lakh spend"
+      }
+    ],
+    "welcome_benefits": {
+      "description": "Indigo voucher ₹5000 or Taj voucher on card activation"
+    },
+    "lounge_access": {
+      "domestic": "8 visits/year via IndiGo lounge or Dreamfolks",
+      "international": "None"
+    },
+    "forex_markup": 3.5,
+    "fuel_surcharge_waiver": false,
+    "key_benefits": [
+      "Taj voucher + IndiGo voucher milestone at ₹1.9L",
+      "Platinum tier upgrade at ₹4L annual spend",
+      "Best suited for IndiGo frequent flyers",
+      "Amex Offers"
+    ],
+    "credit_limit_range": {
+      "min": 50000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 600000,
+      "invitation_only": false
+    },
+    "contactless": false,
+    "is_metal": false
+  },
+  {
+    "id": "amex_platinum_charge",
+    "name": "American Express Platinum Charge Card",
+    "issuer": "American Express",
+    "network": "Amex",
+    "variant": "Platinum Metal",
+    "tier": "luxury",
+    "image_url": "/assets/cards/amex_platinum_charge.png",
+    "annual_fee": 60000,
+    "joining_fee": 60000,
+    "fee_waiver": {
+      "eligible": false
+    },
+    "reward_currency": "membership_rewards_points",
+    "reward_rate_base": 1.0,
+    "reward_structure": {
+      "base": {
+        "points_per_spend": 1,
+        "per_amount": 40,
+        "point_value_inr": 0.5,
+        "net_rate_percent": 1.25
+      },
+      "reward_rate_per_category": {
+        "amex_travel_international": {
+          "points_per_40": 3,
+          "net_rate_percent": 3.75
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": false
+    },
+    "milestone_rewards": [],
+    "welcome_benefits": {
+      "description": "Travel benefits worth ₹90,000 including hotel stays and flight upgrades"
+    },
+    "lounge_access": {
+      "domestic": "Unlimited via Priority Pass",
+      "international": "Unlimited Centurion Lounge + Priority Pass",
+      "guest_visits": "2 guests per visit"
+    },
+    "forex_markup": 3.5,
+    "fuel_surcharge_waiver": false,
+    "key_benefits": [
+      "Centurion Lounge worldwide access",
+      "Taj InnerCircle Epicure Plus membership",
+      "Shangri-La Golden Circle membership",
+      "No pre-set spending limit (charge card)",
+      "Global concierge 24/7",
+      "Annual travel credit of ₹20,000"
+    ],
+    "credit_limit_range": {
+      "min": null,
+      "max": null,
+      "note": "Charge card — no pre-set limit"
+    },
+    "eligibility": {
+      "min_income_inr": 10000000,
+      "invitation_only": true
+    },
+    "contactless": false,
+    "is_metal": true
+  },
+  {
+    "id": "idfc_first_wealth",
+    "name": "IDFC First Wealth Credit Card",
+    "issuer": "IDFC First Bank",
+    "network": "Visa",
+    "variant": "Wealth",
+    "tier": "premium",
+    "image_url": "/assets/cards/idfc_first_wealth.png",
+    "annual_fee": 0,
+    "joining_fee": 0,
+    "fee_waiver": {
+      "eligible": true,
+      "spend_threshold": null,
+      "note": "Lifetime free"
+    },
+    "reward_currency": "reward_points",
+    "reward_rate_base": 3.0,
+    "reward_structure": {
+      "base": {
+        "points_per_spend": 3,
+        "per_amount": 100,
+        "point_value_inr": 0.25,
+        "net_rate_percent": 0.75,
+        "note": "3 points per ₹100 offline"
+      },
+      "reward_rate_per_category": {
+        "online_spends": {
+          "points_per_100": 6,
+          "net_rate_percent": 1.5
+        },
+        "high_value_online_above_20000": {
+          "points_per_100": 10,
+          "net_rate_percent": 2.5
+        },
+        "fuel": {
+          "net_rate_percent": 0,
+          "note": "Excluded from rewards but surcharge waived"
+        },
+        "utilities": {
+          "points_per_100": 3,
+          "net_rate_percent": 0.75
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": true,
+      "categories": {
+        "reward_points_overall": {
+          "max_points": 20000,
+          "per": "month"
+        }
+      }
+    },
+    "milestone_rewards": [],
+    "welcome_benefits": {
+      "description": "Gift vouchers worth ₹500 on first spend"
+    },
+    "lounge_access": {
+      "domestic": "4 visits/quarter via Dreamfolks",
+      "international": "2 visits/quarter via Priority Pass"
+    },
+    "forex_markup": 1.5,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "Lifetime free premium card",
+      "Low forex markup of 1.5%",
+      "Priority Pass for international lounges",
+      "Golf access at 25+ courses",
+      "Road side assistance"
+    ],
+    "credit_limit_range": {
+      "min": 300000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 1200000,
+      "invitation_only": false
+    },
+    "contactless": true,
+    "is_metal": false
+  },
+  {
+    "id": "idfc_first_select",
+    "name": "IDFC First Select Credit Card",
+    "issuer": "IDFC First Bank",
+    "network": "Visa",
+    "variant": "Select",
+    "tier": "entry",
+    "image_url": "/assets/cards/idfc_first_select.png",
+    "annual_fee": 0,
+    "joining_fee": 0,
+    "fee_waiver": {
+      "eligible": true,
+      "spend_threshold": null,
+      "note": "Lifetime free"
+    },
+    "reward_currency": "reward_points",
+    "reward_rate_base": 1.5,
+    "reward_structure": {
+      "base": {
+        "points_per_spend": 3,
+        "per_amount": 100,
+        "point_value_inr": 0.25,
+        "net_rate_percent": 0.75
+      },
+      "reward_rate_per_category": {
+        "online_spends": {
+          "points_per_100": 6,
+          "net_rate_percent": 1.5
+        },
+        "fuel": {
+          "net_rate_percent": 0
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": false
+    },
+    "milestone_rewards": [],
+    "welcome_benefits": {
+      "description": "₹500 voucher on first transaction"
+    },
+    "lounge_access": {
+      "domestic": "4 visits/quarter",
+      "international": "None"
+    },
+    "forex_markup": 3.5,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "Lifetime free",
+      "Zero interest on EMI conversion",
+      "Movie offer - buy 1 get 1"
+    ],
+    "credit_limit_range": {
+      "min": 20000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 360000,
+      "invitation_only": false
+    },
+    "contactless": true,
+    "is_metal": false
+  },
+  {
+    "id": "onecard",
+    "name": "OneCard Credit Card",
+    "issuer": "OneCard (FPL Technologies) / SBM Bank",
+    "network": "Visa",
+    "variant": "Metal",
+    "tier": "entry",
+    "image_url": "/assets/cards/onecard.png",
+    "annual_fee": 0,
+    "joining_fee": 0,
+    "fee_waiver": {
+      "eligible": true,
+      "spend_threshold": null,
+      "note": "Lifetime free"
+    },
+    "reward_currency": "one_points",
+    "reward_rate_base": 1.0,
+    "reward_structure": {
+      "base": {
+        "points_per_spend": 1,
+        "per_amount": 50,
+        "point_value_inr": 0.5,
+        "net_rate_percent": 1.0,
+        "note": "1 point per ₹50"
+      },
+      "reward_rate_per_category": {
+        "top_2_spend_categories_of_month": {
+          "multiplier": 5,
+          "net_rate_percent": 5.0,
+          "note": "5X on top 2 categories each month (dynamic)"
+        },
+        "fuel": {
+          "net_rate_percent": 0
+        },
+        "emi": {
+          "net_rate_percent": 0
+        },
+        "rent": {
+          "net_rate_percent": 0
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": true,
+      "categories": {
+        "5x_top_categories": {
+          "max_points": 1000,
+          "per": "month",
+          "note": "Cap on 5X bonus points only"
+        }
+      }
+    },
+    "milestone_rewards": [],
+    "welcome_benefits": {
+      "description": "Metal card shipped free, no joining fee"
+    },
+    "lounge_access": {
+      "domestic": "None by default (can be added)",
+      "international": "None"
+    },
+    "forex_markup": 1.0,
+    "fuel_surcharge_waiver": false,
+    "key_benefits": [
+      "Metal card for free",
+      "5X on top 2 spend categories (dynamic monthly)",
+      "Low forex markup 1%",
+      "Full-stack mobile app",
+      "Instant card freeze/unfreeze"
+    ],
+    "credit_limit_range": {
+      "min": 10000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 240000,
+      "invitation_only": false
+    },
+    "contactless": true,
+    "is_metal": true
+  },
+  {
+    "id": "hsbc_live_plus",
+    "name": "HSBC Live+",
+    "issuer": "HSBC India",
+    "network": "Visa",
+    "variant": "Standard",
+    "tier": "entry",
+    "image_url": "/assets/cards/hsbc_live_plus.png",
+    "annual_fee": 999,
+    "joining_fee": 999,
+    "fee_waiver": {
+      "eligible": true,
+      "spend_threshold": 200000
+    },
+    "reward_currency": "cashback_inr",
+    "reward_rate_base": 1.5,
+    "reward_structure": {
+      "base": {
+        "net_rate_percent": 1.5,
+        "note": "1.5% cashback on all other spends"
+      },
+      "reward_rate_per_category": {
+        "dining": {
+          "net_rate_percent": 10.0
+        },
+        "grocery": {
+          "net_rate_percent": 10.0
+        },
+        "food_delivery": {
+          "net_rate_percent": 10.0,
+          "note": "Swiggy, Zomato"
+        },
+        "fuel": {
+          "net_rate_percent": 0
+        },
+        "rent": {
+          "net_rate_percent": 0
+        },
+        "utilities": {
+          "net_rate_percent": 0
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": true,
+      "categories": {
+        "10pct_cashback_categories": {
+          "max_cashback_inr": 1000,
+          "per": "month"
+        },
+        "overall_cashback": {
+          "max_cashback_inr": 1000,
+          "per": "month"
+        }
+      }
+    },
+    "milestone_rewards": [],
+    "welcome_benefits": {
+      "description": "Amazon voucher ₹500 on first spend within 60 days"
+    },
+    "lounge_access": {
+      "domestic": "None",
+      "international": "None"
+    },
+    "forex_markup": 3.5,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "10% cashback on dining, grocery, food delivery",
+      "Cashback auto-credited monthly",
+      "Simple no-category-restriction base earn"
+    ],
+    "credit_limit_range": {
+      "min": 25000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 400000,
+      "invitation_only": false
+    },
+    "contactless": true,
+    "is_metal": false
+  },
+  {
+    "id": "hsbc_premier_mastercard",
+    "name": "HSBC Premier Mastercard",
+    "issuer": "HSBC India",
+    "network": "Mastercard",
+    "variant": "World",
+    "tier": "premium",
+    "image_url": "/assets/cards/hsbc_premier_mastercard.png",
+    "annual_fee": 0,
+    "joining_fee": 0,
+    "fee_waiver": {
+      "eligible": true,
+      "spend_threshold": null,
+      "note": "Free for HSBC Premier banking customers"
+    },
+    "reward_currency": "reward_points",
+    "reward_rate_base": 2.0,
+    "reward_structure": {
+      "base": {
+        "points_per_spend": 2,
+        "per_amount": 100,
+        "point_value_inr": 0.5,
+        "net_rate_percent": 1.0
+      },
+      "reward_rate_per_category": {
+        "international_spends": {
+          "points_per_100": 2,
+          "multiplier": 2,
+          "net_rate_percent": 2.0
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": false
+    },
+    "milestone_rewards": [],
+    "welcome_benefits": {
+      "description": "3000 bonus points on joining"
+    },
+    "lounge_access": {
+      "domestic": "6 visits/year",
+      "international": "4 visits/year via LoungeKey"
+    },
+    "forex_markup": 2.0,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "Complimentary for Premier banking relationship",
+      "LoungeKey access",
+      "Mastercard Priceless India experiences",
+      "Global emergency assistance"
+    ],
+    "credit_limit_range": {
+      "min": 200000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 1800000,
+      "note": "HSBC Premier banking relationship required"
+    },
+    "contactless": true,
+    "is_metal": false
+  },
+  {
+    "id": "hdfc_biz_regalia",
+    "name": "HDFC Business Regalia Credit Card",
+    "issuer": "HDFC Bank",
+    "network": "Visa",
+    "variant": "Business",
+    "tier": "premium",
+    "image_url": "/assets/cards/hdfc_biz_regalia.png",
+    "annual_fee": 2500,
+    "joining_fee": 2500,
+    "fee_waiver": {
+      "eligible": true,
+      "spend_threshold": 500000
+    },
+    "reward_currency": "reward_points",
+    "reward_rate_base": 2.67,
+    "reward_structure": {
+      "base": {
+        "points_per_spend": 4,
+        "per_amount": 150,
+        "point_value_inr": 1.0,
+        "net_rate_percent": 2.67
+      },
+      "reward_rate_per_category": {
+        "travel_via_smartbuy": {
+          "points_per_150": 10,
+          "net_rate_percent": 6.67
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": false
+    },
+    "milestone_rewards": [],
+    "welcome_benefits": {
+      "description": "2500 reward points on activation"
+    },
+    "lounge_access": {
+      "domestic": "6 visits/year",
+      "international": "6 visits/year via Priority Pass"
+    },
+    "forex_markup": 2.0,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "Business expense tracking",
+      "Priority Pass",
+      "Low forex markup for business travel"
+    ],
+    "credit_limit_range": {
+      "min": 100000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": null,
+      "note": "Business entities, GST filing required"
+    },
+    "contactless": true,
+    "is_metal": false
+  },
+  {
+    "id": "sbi_simplyclick",
+    "name": "SBI Card SimplyCLICK",
+    "issuer": "SBI Card",
+    "network": "Visa",
+    "variant": "Standard",
+    "tier": "entry",
+    "image_url": "/assets/cards/sbi_simplyclick.png",
+    "annual_fee": 499,
+    "joining_fee": 499,
+    "fee_waiver": {
+      "eligible": true,
+      "spend_threshold": 100000
+    },
+    "reward_currency": "reward_points",
+    "reward_rate_base": 1.0,
+    "reward_structure": {
+      "base": {
+        "points_per_spend": 1,
+        "per_amount": 100,
+        "point_value_inr": 0.25,
+        "net_rate_percent": 0.25
+      },
+      "reward_rate_per_category": {
+        "online_spends_all": {
+          "points_per_100": 5,
+          "net_rate_percent": 1.25
+        },
+        "amazon_bookmyshow_cleartrip_lenskart_netmeds": {
+          "points_per_100": 10,
+          "net_rate_percent": 2.5
+        },
+        "fuel": {
+          "net_rate_percent": 0
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": false
+    },
+    "milestone_rewards": [
+      {
+        "spend_threshold_inr": 100000,
+        "reward": "Cleartrip e-voucher ₹2000"
+      },
+      {
+        "spend_threshold_inr": 200000,
+        "reward": "Cleartrip e-voucher ₹2000 additional"
+      }
+    ],
+    "welcome_benefits": {
+      "description": "Amazon voucher ₹500 on joining"
+    },
+    "lounge_access": {
+      "domestic": "None",
+      "international": "None"
+    },
+    "forex_markup": 3.5,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "10X on Amazon, Cleartrip, BookMyShow",
+      "5X on all online spends",
+      "Milestone travel vouchers"
+    ],
+    "credit_limit_range": {
+      "min": 20000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 240000,
+      "invitation_only": false
+    },
+    "contactless": true,
+    "is_metal": false
+  },
+  {
+    "id": "sbi_simply_save",
+    "name": "SBI Card SimplySAVE",
+    "issuer": "SBI Card",
+    "network": "Mastercard",
+    "variant": "Standard",
+    "tier": "entry",
+    "image_url": "/assets/cards/sbi_simply_save.png",
+    "annual_fee": 499,
+    "joining_fee": 499,
+    "fee_waiver": {
+      "eligible": true,
+      "spend_threshold": 100000
+    },
+    "reward_currency": "reward_points",
+    "reward_rate_base": 0.25,
+    "reward_structure": {
+      "base": {
+        "points_per_spend": 1,
+        "per_amount": 100,
+        "point_value_inr": 0.25,
+        "net_rate_percent": 0.25
+      },
+      "reward_rate_per_category": {
+        "dining": {
+          "points_per_100": 10,
+          "net_rate_percent": 2.5
+        },
+        "movies": {
+          "points_per_100": 10,
+          "net_rate_percent": 2.5
+        },
+        "departmental_stores": {
+          "points_per_100": 10,
+          "net_rate_percent": 2.5
+        },
+        "grocery": {
+          "points_per_100": 10,
+          "net_rate_percent": 2.5
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": false
+    },
+    "milestone_rewards": [],
+    "welcome_benefits": {
+      "description": "2000 bonus reward points on ₹2000 spend in 60 days"
+    },
+    "lounge_access": {
+      "domestic": "None",
+      "international": "None"
+    },
+    "forex_markup": 3.5,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "10X on offline dining, movies, grocery",
+      "Entry-level offline rewards card"
+    ],
+    "credit_limit_range": {
+      "min": 10000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 200000,
+      "invitation_only": false
+    },
+    "contactless": true,
+    "is_metal": false
+  },
+  {
+    "id": "icici_emeralde_private_metal",
+    "name": "ICICI Bank Emeralde Private Metal",
+    "issuer": "ICICI Bank",
+    "network": "Mastercard",
+    "variant": "Metal",
+    "tier": "luxury",
+    "image_url": "/assets/cards/icici_emeralde_private_metal.png",
+    "annual_fee": 12000,
+    "joining_fee": 12000,
+    "fee_waiver": {
+      "eligible": false
+    },
+    "reward_currency": "reward_points",
+    "reward_rate_base": 2.0,
+    "reward_structure": {
+      "base": {
+        "points_per_spend": 4,
+        "per_amount": 100,
+        "point_value_inr": 0.5,
+        "net_rate_percent": 2.0
+      },
+      "reward_rate_per_category": {
+        "travel_and_hotels": {
+          "points_per_100": 4,
+          "net_rate_percent": 2.0
+        },
+        "international_spends": {
+          "points_per_100": 4,
+          "net_rate_percent": 2.0
+        },
+        "fuel": {
+          "net_rate_percent": 0
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": false
+    },
+    "milestone_rewards": [],
+    "welcome_benefits": {
+      "description": "12000 bonus points on first spend + Ixigo Miles voucher"
+    },
+    "lounge_access": {
+      "domestic": "Unlimited via Dreamfolks",
+      "international": "Unlimited via Priority Pass",
+      "guest_visits": "Unlimited"
+    },
+    "forex_markup": 1.5,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "Metal card",
+      "Unlimited lounge access domestic and international",
+      "Low forex markup 1.5%",
+      "Taj Epicure membership",
+      "Golf access",
+      "Club Marriott membership"
+    ],
+    "credit_limit_range": {
+      "min": 500000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 3600000,
+      "invitation_only": true
+    },
+    "contactless": true,
+    "is_metal": true
+  },
+  {
+    "id": "kotak_white_reserve",
+    "name": "Kotak White Reserve Credit Card",
+    "issuer": "Kotak Mahindra Bank",
+    "network": "Visa",
+    "variant": "Reserve",
+    "tier": "luxury",
+    "image_url": "/assets/cards/kotak_white_reserve.png",
+    "annual_fee": 3500,
+    "joining_fee": 3500,
+    "fee_waiver": {
+      "eligible": true,
+      "spend_threshold": 500000
+    },
+    "reward_currency": "reward_points",
+    "reward_rate_base": 1.33,
+    "reward_structure": {
+      "base": {
+        "points_per_spend": 2,
+        "per_amount": 150,
+        "point_value_inr": 1.0,
+        "net_rate_percent": 1.33
+      },
+      "reward_rate_per_category": {
+        "travel_via_portal": {
+          "points_per_150": 4,
+          "net_rate_percent": 2.67
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": false
+    },
+    "milestone_rewards": [],
+    "welcome_benefits": {
+      "description": "5000 bonus points on card activation"
+    },
+    "lounge_access": {
+      "domestic": "8 visits/year",
+      "international": "4 visits/year"
+    },
+    "forex_markup": 3.5,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "Golf at 30+ courses",
+      "Taj InnerCircle Silver membership",
+      "Travel insurance"
+    ],
+    "credit_limit_range": {
+      "min": 150000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 1000000,
+      "invitation_only": false
+    },
+    "contactless": true,
+    "is_metal": false
+  },
+  {
+    "id": "au_lio_rupay",
+    "name": "AU LIT Credit Card (RuPay)",
+    "issuer": "AU Small Finance Bank",
+    "network": "RuPay",
+    "variant": "Standard",
+    "tier": "entry",
+    "image_url": "/assets/cards/au_lio_rupay.png",
+    "annual_fee": 0,
+    "joining_fee": 0,
+    "fee_waiver": {
+      "eligible": true,
+      "spend_threshold": null,
+      "note": "Lifetime free"
+    },
+    "reward_currency": "cashback_inr",
+    "reward_rate_base": 1.0,
+    "reward_structure": {
+      "base": {
+        "net_rate_percent": 1.0,
+        "note": "1% cashback on all offline spends"
+      },
+      "reward_rate_per_category": {
+        "select_merchant_categories": {
+          "net_rate_percent": 2.0,
+          "note": "2% on chosen category via app"
+        },
+        "upi_payments": {
+          "net_rate_percent": 0.5
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": true,
+      "categories": {
+        "cashback_overall": {
+          "max_cashback_inr": 500,
+          "per": "month"
+        }
+      }
+    },
+    "milestone_rewards": [],
+    "welcome_benefits": {
+      "description": "₹100 cashback on first UPI transaction"
+    },
+    "lounge_access": {
+      "domestic": "None",
+      "international": "None"
+    },
+    "forex_markup": 3.5,
+    "fuel_surcharge_waiver": false,
+    "key_benefits": [
+      "Lifetime free RuPay card",
+      "UPI-enabled via RuPay network",
+      "Customizable cashback category via AU app"
+    ],
+    "credit_limit_range": {
+      "min": 10000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 200000,
+      "invitation_only": false
+    },
+    "contactless": true,
+    "is_metal": false
+  },
+  {
+    "id": "indusind_legend_mastercard",
+    "name": "IndusInd Legend Credit Card",
+    "issuer": "IndusInd Bank",
+    "network": "Mastercard",
+    "variant": "World",
+    "tier": "premium",
+    "image_url": "/assets/cards/indusind_legend_mastercard.png",
+    "annual_fee": 9999,
+    "joining_fee": 9999,
+    "fee_waiver": {
+      "eligible": false
+    },
+    "reward_currency": "reward_points",
+    "reward_rate_base": 1.5,
+    "reward_structure": {
+      "base": {
+        "points_per_spend": 1.5,
+        "per_amount": 100,
+        "point_value_inr": 1.0,
+        "net_rate_percent": 1.5
+      },
+      "reward_rate_per_category": {
+        "dining": {
+          "points_per_100": 2,
+          "net_rate_percent": 2.0
+        },
+        "entertainment": {
+          "points_per_100": 2,
+          "net_rate_percent": 2.0
+        },
+        "international_spends": {
+          "points_per_100": 2,
+          "net_rate_percent": 2.0
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": false
+    },
+    "milestone_rewards": [],
+    "welcome_benefits": {
+      "description": "Golf membership + 10,000 bonus points on joining"
+    },
+    "lounge_access": {
+      "domestic": "Unlimited",
+      "international": "6 visits/year via Priority Pass"
+    },
+    "forex_markup": 3.5,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "Unlimited domestic lounge",
+      "Golf at 100+ courses globally",
+      "Concierge services",
+      "Mastercard World privileges"
+    ],
+    "credit_limit_range": {
+      "min": 300000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 2400000,
+      "invitation_only": false
+    },
+    "contactless": true,
+    "is_metal": false
+  },
+  {
+    "id": "yesbank_reserv",
+    "name": "YES BANK Reserv Credit Card",
+    "issuer": "YES Bank",
+    "network": "Mastercard",
+    "variant": "World Elite",
+    "tier": "luxury",
+    "image_url": "/assets/cards/yesbank_reserv.png",
+    "annual_fee": 1999,
+    "joining_fee": 1999,
+    "fee_waiver": {
+      "eligible": true,
+      "spend_threshold": 400000
+    },
+    "reward_currency": "yes_rewardz_points",
+    "reward_rate_base": 1.0,
+    "reward_structure": {
+      "base": {
+        "points_per_spend": 12,
+        "per_amount": 200,
+        "point_value_inr": 0.166,
+        "net_rate_percent": 1.0
+      },
+      "reward_rate_per_category": {
+        "travel": {
+          "points_per_200": 36,
+          "net_rate_percent": 3.0
+        },
+        "dining": {
+          "points_per_200": 36,
+          "net_rate_percent": 3.0
+        },
+        "fuel": {
+          "net_rate_percent": 0
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": false
+    },
+    "milestone_rewards": [],
+    "welcome_benefits": {
+      "description": "10,000 YES Rewardz on joining"
+    },
+    "lounge_access": {
+      "domestic": "Unlimited via Dreamfolks",
+      "international": "Unlimited via Priority Pass"
+    },
+    "forex_markup": 2.75,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "Mastercard World Elite privileges",
+      "Unlimited lounge access",
+      "Golf worldwide",
+      "Concierge"
+    ],
+    "credit_limit_range": {
+      "min": 200000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 2400000,
+      "invitation_only": false
+    },
+    "contactless": true,
+    "is_metal": false
+  },
+  {
+    "id": "hdfc_swiggy_card",
+    "name": "HDFC Swiggy Credit Card",
+    "issuer": "HDFC Bank",
+    "network": "Visa",
+    "variant": "Standard",
+    "tier": "entry",
+    "image_url": "/assets/cards/hdfc_swiggy_card.png",
+    "annual_fee": 500,
+    "joining_fee": 500,
+    "fee_waiver": {
+      "eligible": true,
+      "spend_threshold": 200000
+    },
+    "reward_currency": "swiggy_money",
+    "reward_rate_base": 1.0,
+    "reward_structure": {
+      "base": {
+        "net_rate_percent": 1.0,
+        "note": "1% on all other spends"
+      },
+      "reward_rate_per_category": {
+        "swiggy_food_delivery": {
+          "net_rate_percent": 10.0
+        },
+        "swiggy_instamart": {
+          "net_rate_percent": 5.0
+        },
+        "swiggy_genie": {
+          "net_rate_percent": 5.0
+        },
+        "fuel": {
+          "net_rate_percent": 0
+        },
+        "emi": {
+          "net_rate_percent": 0
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": true,
+      "categories": {
+        "swiggy_food_10pct": {
+          "max_cashback_inr": 1500,
+          "per": "month"
+        },
+        "instamart_5pct": {
+          "max_cashback_inr": 1500,
+          "per": "month"
+        }
+      }
+    },
+    "milestone_rewards": [],
+    "welcome_benefits": {
+      "description": "₹500 Swiggy money on card activation"
+    },
+    "lounge_access": {
+      "domestic": "None",
+      "international": "None"
+    },
+    "forex_markup": 3.5,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "10% on Swiggy food orders",
+      "5% on Instamart & Genie",
+      "Co-branded Swiggy ecosystem card"
+    ],
+    "credit_limit_range": {
+      "min": 20000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 300000,
+      "invitation_only": false
+    },
+    "contactless": true,
+    "is_metal": false
+  },
+  {
+    "id": "sbi_aurum",
+    "name": "SBI Card AURUM",
+    "issuer": "SBI Card",
+    "network": "Visa",
+    "variant": "Metal",
+    "tier": "luxury",
+    "image_url": "/assets/cards/sbi_aurum.png",
+    "annual_fee": 9999,
+    "joining_fee": 9999,
+    "fee_waiver": {
+      "eligible": false
+    },
+    "reward_currency": "reward_points",
+    "reward_rate_base": 2.0,
+    "reward_structure": {
+      "base": {
+        "points_per_spend": 2,
+        "per_amount": 100,
+        "point_value_inr": 1.0,
+        "net_rate_percent": 2.0
+      },
+      "reward_rate_per_category": {
+        "travel_merchants": {
+          "points_per_100": 3,
+          "net_rate_percent": 3.0
+        },
+        "dining": {
+          "points_per_100": 3,
+          "net_rate_percent": 3.0
+        },
+        "fuel": {
+          "net_rate_percent": 0
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": false
+    },
+    "milestone_rewards": [
+      {
+        "spend_threshold_inr": 500000,
+        "reward": "5000 bonus reward points"
+      },
+      {
+        "spend_threshold_inr": 1000000,
+        "reward": "Annual fee waiver next year"
+      }
+    ],
+    "welcome_benefits": {
+      "description": "Golf membership + vouchers worth ₹9999 on joining"
+    },
+    "lounge_access": {
+      "domestic": "Unlimited",
+      "international": "Unlimited via Priority Pass",
+      "guest_visits": "Complimentary guest passes"
+    },
+    "forex_markup": 1.99,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "Metal card",
+      "Unlimited lounge access",
+      "Taj InnerCircle membership",
+      "Golf at premium courses",
+      "Low forex markup 1.99%",
+      "Concierge 24/7"
+    ],
+    "credit_limit_range": {
+      "min": 500000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 3000000,
+      "invitation_only": true
+    },
+    "contactless": true,
+    "is_metal": true
+  },
+  {
+    "id": "icici_rubyx",
+    "name": "ICICI Bank Rubyx Credit Card",
+    "issuer": "ICICI Bank",
+    "network": "Visa",
+    "variant": "Signature",
+    "tier": "premium",
+    "image_url": "/assets/cards/icici_rubyx.png",
+    "annual_fee": 2000,
+    "joining_fee": 2000,
+    "fee_waiver": {
+      "eligible": true,
+      "spend_threshold": 200000
+    },
+    "reward_currency": "reward_points",
+    "reward_rate_base": 1.0,
+    "reward_structure": {
+      "base": {
+        "points_per_spend": 2,
+        "per_amount": 100,
+        "point_value_inr": 0.25,
+        "net_rate_percent": 0.5
+      },
+      "reward_rate_per_category": {
+        "dining": {
+          "points_per_100": 4,
+          "net_rate_percent": 1.0
+        },
+        "movies": {
+          "points_per_100": 4,
+          "net_rate_percent": 1.0
+        },
+        "grocery": {
+          "points_per_100": 4,
+          "net_rate_percent": 1.0
+        },
+        "international_spends": {
+          "points_per_100": 4,
+          "net_rate_percent": 1.0
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": false
+    },
+    "milestone_rewards": [],
+    "welcome_benefits": {
+      "description": "Gift voucher ₹2000 on activation"
+    },
+    "lounge_access": {
+      "domestic": "4 visits/quarter",
+      "international": "2 visits/quarter via Priority Pass"
+    },
+    "forex_markup": 3.5,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "Buy 1 Get 1 BookMyShow movies",
+      "Priority Pass",
+      "2 complimentary airport lounge international per quarter"
+    ],
+    "credit_limit_range": {
+      "min": 100000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 600000,
+      "invitation_only": false
+    },
+    "contactless": true,
+    "is_metal": false
+  },
+  {
+    "id": "axis_magnus_metal",
+    "name": "Axis Bank Magnus Metal",
+    "issuer": "Axis Bank",
+    "network": "Mastercard",
+    "variant": "Metal",
+    "tier": "luxury",
+    "image_url": "/assets/cards/axis_magnus_metal.png",
+    "annual_fee": 10000,
+    "joining_fee": 10000,
+    "fee_waiver": {
+      "eligible": false
+    },
+    "reward_currency": "EDGE_Miles",
+    "reward_rate_base": 3.0,
+    "reward_structure": {
+      "base": {
+        "miles_per_spend": 12,
+        "per_amount": 200,
+        "point_value_inr": 0.5,
+        "net_rate_percent": 3.0,
+        "note": "12 EDGE Miles per ₹200"
+      },
+      "reward_rate_per_category": {
+        "travel_merchants_mcc": {
+          "miles_per_200": 35,
+          "net_rate_percent": 8.75
+        },
+        "ixigo_via_axis_portal": {
+          "miles_per_200": 35,
+          "net_rate_percent": 8.75
+        },
+        "fuel": {
+          "net_rate_percent": 0
+        },
+        "utilities_telco_insurance": {
+          "net_rate_percent": 0
+        }
+      }
+    },
+    "caps_per_month": {
+      "applicable": true,
+      "categories": {
+        "travel_accelerated_miles": {
+          "max_miles": 25000,
+          "per": "month"
+        }
+      }
+    },
+    "milestone_rewards": [
+      {
+        "spend_threshold_inr": 150000,
+        "reward": "25000 EDGE Miles bonus (Boosted Milestone)",
+        "per": "month"
+      }
+    ],
+    "welcome_benefits": {
+      "description": "25000 EDGE Miles on first spend within 37 days of card issuance"
+    },
+    "lounge_access": {
+      "domestic": "Unlimited",
+      "international": "Unlimited via Priority Pass",
+      "guest_visits": "Unlimited guest access for self + 1"
+    },
+    "forex_markup": 2.0,
+    "fuel_surcharge_waiver": true,
+    "key_benefits": [
+      "Unlimited lounge globally",
+      "25,000 EDGE Miles welcome bonus",
+      "25,000 bonus miles on monthly ₹1.5L spend milestone",
+      "EDGE Miles transfer to 20+ airline/hotel partners",
+      "Golf access",
+      "Priority Pass for self + add-on"
+    ],
+    "credit_limit_range": {
+      "min": 500000,
+      "max": null
+    },
+    "eligibility": {
+      "min_income_inr": 2400000,
+      "invitation_only": false
+    },
+    "contactless": true,
+    "is_metal": true
+  }
+]
